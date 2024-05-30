@@ -4,7 +4,6 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import metaverse from "../images/alephshib.png";
 import Image from "next/image";
-// import fun from '../images/fun.jpg'
 
 const Metaverse = () => {
   return (
@@ -26,7 +25,7 @@ const Metaverse = () => {
               data-aos-once="true"
             >
               <div>
-                <p>The utility of the Boom Fart token won't stop there!</p>
+                <p>The utility of the Boom Fart token won&apos;t stop there!</p>
                 <p>
                   2% of the transaction tax is used for marketing and community
                   rewards.
@@ -56,7 +55,9 @@ const Metaverse = () => {
               <Image
                 className="rotation360 rotateImg"
                 style={{
-                  height:"15rem",width:"15rem", margin:"0 auto"
+                  height: "15rem",
+                  width: "15rem",
+                  margin: "0 auto",
                 }}
                 src={metaverse}
                 alt="alephshib"
