@@ -4,6 +4,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import metaverse from "../images/alephshib.png";
 import Image from "next/image";
+// import fun from '../images/fun.jpg'
 
 const Metaverse = () => {
   return (
