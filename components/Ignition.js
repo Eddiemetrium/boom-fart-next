@@ -49,7 +49,7 @@ const Ignition = () => {
               data-aos-duration="1000"
               data-aos-once="true"
             >
-              <Image src={burning} alt="alephshib" />
+              <Image style={{height:"10rem", width:"10rem"}} src={burning} alt="alephshib" />
             </div>
           </Col>
         </Row>
